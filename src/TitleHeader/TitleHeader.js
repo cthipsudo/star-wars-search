@@ -4,7 +4,7 @@ export default class TitleHeader extends Component{
     render(){
         return(
         <header>
-            <h1>Star Wars Search!</h1>
+            <h1>Star Wars People Search!</h1>
         </header>)
     }
 }
