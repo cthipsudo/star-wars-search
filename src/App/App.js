@@ -11,7 +11,7 @@ class App extends Component {
   handleSearch = (results) => {
     this.setState({
       results: results,
-      searched: !this.state.searched
+      searched: true
     })
   }
   render(){
@@ -20,6 +20,7 @@ class App extends Component {
       <SearchContext.Provider value={
         {
           results: this.state.results,
+          searched: this.state.searched,
           handleSearch: this.handleSearch,
         }
       }>

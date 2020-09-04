@@ -1,0 +1,33 @@
+.basic-info{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    flex: 4;
+    justify-content: flex-start;
+}
+.basic-info h3{
+    margin: 0;
+    margin-right: 20px;
+    font-size: 1.2em;
+}
+.basic-info h3:last-child{
+    margin-right: 0;
+}
+.result-sheet{
+    margin-bottom: 20px;
+}
+.result-sheet .top-section{
+    display: flex;
+    align-items: center;
+}
+.result-sheet h2{
+    flex: 3;
+    margin: 0;
+}
+.result-sheet h4{
+    margin-bottom: 10px;
+}
+.result-sheet .mid-section {
+    display: flex;
+    justify-content: space-around;
+}
