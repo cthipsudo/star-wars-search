@@ -15,7 +15,7 @@ export default class SearchResults extends Component {
             results = this.context.results.map((item, index) => {
                 return (
                     <ResultItem
-                        key={index}
+                        key={index + item.name}
                         item={item}
                     >
                     </ResultItem>
